@@ -79,13 +79,24 @@ h2, h3 {
 }
 
 .fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 50px;
+	font-size: 50px;
+	width: auto;
+	height: auto;
 	text-align: center;
 	text-decoration: none;
 	background-color: black;
 	color: white;
+	border-radius: 40%;
+}
+
+.media-links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.media-links a {
+	margin: 10px;
+	padding: 20px;
 }
 
 footer div {
