@@ -34,6 +34,10 @@ nav:hover {
 	background-color: black;
 }
 
+nav a {
+	text-decoration: none;
+}
+
 nav a:hover {
 	color: lightblue;
 }
@@ -56,15 +60,20 @@ h1 {
 
 h2, h3 {
 	text-align: center;
+	background-color: white;
 }
 
 h2 {
 	margin-top: 50px;
 	font-size: 40px;
+	border-radius: 30px;
+	padding: 20px 0;
 }
 
 h3 {
 	color: black;
+	border-radius: 15px;
+	padding: 5px 0;
 }
 
 .nav-item {
