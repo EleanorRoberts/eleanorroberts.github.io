@@ -29,6 +29,10 @@ nav:hover {
 	background-color: black;
 }
 
+nav a:hover {
+	color: lightblue;
+}
+
 header {
 	height: 100vh;
 	background-image: url('Nova1.jpeg');
