@@ -33,7 +33,7 @@ h1 {
 
 h2, h3 {
 	padding: 0 30px;
-	align-text: center;
+	text-align: center;
 }
 
 .nav-item {
@@ -42,12 +42,36 @@ h2, h3 {
 }
 
 .project-item {
+	display: flex;
+	justify-content: space-evenly;
 	padding: 10px;
-	background-color: blanchedalmond;
+	background-color: black;
+	color: white;
 	margin: 10px;
 	border-radius: 15px;
 }
 
-html {
-	
+.project-image {
+	width: 100px;
+	height: 100px;
+	margin: auto 0;
+}
+
+.project-info {/*
+	background-color: teal;*/
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.project-info div {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px 0;
+}
+
+footer div {
+	border-top: 1px solid gray;
+	padding: 10px 0;
+	text-align: right;
 }
