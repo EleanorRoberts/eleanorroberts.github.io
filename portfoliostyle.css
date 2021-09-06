@@ -36,6 +36,12 @@ h2, h3 {
 	text-align: center;
 }
 
+a {
+	padding: 10px;
+	background-color: lightgray;
+	border-radius: 5px;
+}
+
 .nav-item {
 	color: white;
 	padding: 5px;
@@ -45,7 +51,7 @@ h2, h3 {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 10px;
-	background-color: black;
+	background-color: gray;
 	color: white;
 	margin: 10px;
 	border-radius: 15px;
