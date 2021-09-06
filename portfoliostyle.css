@@ -200,4 +200,13 @@ footer div {
 		padding: 0;
 		font-size: 25vw;
 	}
+	
+	.media-links {
+		flex-wrap: wrap;
+	}
+	
+	.media-links a {
+		flex-wrap: wrap;
+		padding: 10px;
+	}
 }
