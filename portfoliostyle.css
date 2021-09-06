@@ -15,10 +15,18 @@ nav {
 	top: 0;
 	right: 0;
 	background-color: grey;
+	border: 3px dotted white;
+	opacity: 0.7;
+	border-radius: 30%;
 	padding: 10px;
 	margin: 20px;
 	display: flex;
 	flex-direction: column;
+}
+
+nav:hover {
+	opacity: 1;
+	background-color: black;
 }
 
 header {
@@ -59,6 +67,7 @@ body {
 .nav-item {
 	color: white;
 	padding: 10px;
+	text-align: center;
 }
 
 .project-item {
