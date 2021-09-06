@@ -18,3 +18,9 @@ nav {
 	color: white;
 	padding: 5px;
 }
+
+header {
+	height: 500px;
+	background-color: black;
+	color: white;
+}
