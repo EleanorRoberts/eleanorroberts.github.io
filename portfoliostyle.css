@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
 }
 
 section {
@@ -8,15 +9,12 @@ section {
 }
 
 nav {
-	float: right;
+	position: fixed;
+	top: 0;
+	right: 0;
 	background-color: grey;
 	padding: 10px;
 	margin: 20px;
-}
-
-.nav-item {
-	color: white;
-	padding: 5px;
 }
 
 header {
@@ -26,8 +24,30 @@ header {
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
-	
 }
 
-section {
+h1 {
+	padding: 100px 0;
+	font-size: 70px;
+}
+
+h2, h3 {
+	padding: 0 30px;
+	align-text: center;
+}
+
+.nav-item {
+	color: white;
+	padding: 5px;
+}
+
+.project-item {
+	padding: 10px;
+	background-color: blanchedalmond;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+html {
+	
 }
