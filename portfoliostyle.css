@@ -8,5 +8,13 @@ section {
 }
 
 nav {
-	float: left;
+	float: right;
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+}
+
+.nav-item {
+	color: white;
+	padding: 5px;
 }
