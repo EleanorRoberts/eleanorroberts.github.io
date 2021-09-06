@@ -20,7 +20,7 @@ nav {
 }
 
 header {
-	height: 700px;
+	height: 100vh;
 	background-image: url('stock-image1.webp');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -31,6 +31,7 @@ header {
 h1 {
 	padding: 100px 0;
 	font-size: 70px;
+	margin: 0;
 }
 
 h2, h3 {
