@@ -20,9 +20,13 @@ nav {
 }
 
 header {
-	height: 500px;
-	background-color: black;
+	height: 700px;
+	background-image: url('stock-image1.webp');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	color: white;
+	
 }
 
 section {
