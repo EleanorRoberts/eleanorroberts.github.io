@@ -156,6 +156,7 @@ h3 {
 
 .media-links a:hover {
 	color: lightblue;
+	border: 3px solid white;
 }
 
 footer div {
