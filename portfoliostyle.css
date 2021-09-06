@@ -192,7 +192,7 @@ footer div {
 	
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	section {
 		width: 90%;
 	}
@@ -207,7 +207,7 @@ footer div {
 	}
 	
 	h1 {
-		padding-top: 100vw;
+		padding-bottom: 45vw;
 		font-size: 20vw;
 	}
 	
