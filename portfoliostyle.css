@@ -13,17 +13,18 @@ section {
 body {
 	background-color: lightgray;
 	background-image: linear-gradient(gray, white);
+	background-position: top center;
 }
 
 nav {
 	position: fixed;
-	top: 0;
-	right: 0;
+	top: 1vh;
+	right: 1vw;
 	background-color: grey;
-	border: 3px dotted white;
+	border: 3px solid white;
 	opacity: 0.7;
 	border-radius: 30%;
-	padding: 10px;
+	padding: 10px 25px;
 	margin: 20px;
 	display: flex;
 	flex-direction: column;
@@ -177,9 +178,18 @@ footer div {
 		width: 100%;
 	}
 	
-	h1 {
-		padding: 170px;
+	header {
+		height: auto;
 	}
+	
+	h1 {
+		padding: 9vw;
+	}
+	
+	nav {
+		opacity: 0.4;
+	}
+	
 }
 
 @media screen and (max-width: 400px) {
@@ -197,12 +207,17 @@ footer div {
 	}
 	
 	h1 {
-		padding: 0;
-		font-size: 25vw;
+		padding-top: 100vw;
+		font-size: 20vw;
+	}
+	
+	header {
+		background-size: contain;
 	}
 	
 	nav {
 		opacity: 0.2;
+		padding: 0;
 	}
 	
 	.media-links {
