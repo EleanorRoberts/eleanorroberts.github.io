@@ -90,12 +90,12 @@ body {
 	padding: 10px;
 	background-color: black;
 	border-radius: 5px;
-	color: white;
+	color: lightblue;
 	text-decoration: none;
 }
 
 .project-image {
-	width: 200px;
+	max-width: 200px;
 	height: 150px;
 	margin: auto 0;
 }
