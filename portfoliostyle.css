@@ -23,7 +23,7 @@ nav {
 
 header {
 	height: 100vh;
-	background-image: url('stock-image1.webp');
+	background-image: url('Nova1.jpeg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -31,9 +31,10 @@ header {
 }
 
 h1 {
-	padding: 100px 0;
-	font-size: 70px;
+	font-size: 100px;
 	margin: 0;
+	text-align: left;
+	padding: 100px;
 }
 
 h2, h3 {
