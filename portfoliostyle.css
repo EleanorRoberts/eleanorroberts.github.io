@@ -39,8 +39,16 @@ nav a {
 	text-decoration: none;
 }
 
+.nav-item.cv {
+	color: lavender;
+	font-weight: bold;
+}
+
 nav a:hover {
 	color: lightblue;
+}
+.nav-item.cv:hover {
+	color: plum;
 }
 
 header {
@@ -130,7 +138,7 @@ h3 {
 }
 
 .about {
-	padding: 20px;
+	padding: 20px 7vw;
 	background-color: gray;
 	color: white;
 	margin: 20px 0;
@@ -177,7 +185,7 @@ footer div {
 	section {
 		width: 80%;
 	}
-	
+
 	.project-item {
 		flex-direction: column;
 		align-items: center;
@@ -186,27 +194,27 @@ footer div {
 	.project-info {
 		width: 100%;
 	}
-	
+
 	header {
 		height: auto;
 	}
-	
+
 	h1 {
 		padding: 9vw;
 		font-size: 20vw;
 	}
-	
+
 	nav {
 		opacity: 0.4;
 	}
-	
+
 }
 
 @media screen and (max-width: 450px) {
 	section {
 		width: 90%;
 	}
-	
+
 	nav {
 		position: static;
 		width: 90vw;
@@ -220,35 +228,35 @@ footer div {
 		align-items: center;
 		background-color: transparent;
 	}
-	
+
 	.project-item {
 		flex-direction: column;
 		align-items: center;
 	}
-	
+
 	.project-info {
 		width: 100%;
 	}
-	
+
 	h1 {
 		padding: 0;
 		padding-bottom: 15vw;
 		font-size: 20vw;
 	}
-	
+
 	h2 {
 		margin-top: 5vh;
 	}
-	
+
 	header {
 		background-size: contain;
 		padding-top: 20vh;
 	}
-	
+
 	.media-links {
 		flex-wrap: wrap;
 	}
-	
+
 	.media-links a {
 		flex-wrap: wrap;
 		padding: 10px;
