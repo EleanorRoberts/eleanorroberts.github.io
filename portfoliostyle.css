@@ -6,7 +6,7 @@
 }
 
 section {
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
 }
 
@@ -57,7 +57,6 @@ header {
 h1 {
 	font-size: 100px;
 	margin: 0;
-	text-align: left;
 	padding: 100px;
 }
 
@@ -80,7 +79,7 @@ h3 {
 }
 
 p a {
-	color: white;;
+	color: white;
 }
 
 footer div {
@@ -154,12 +153,15 @@ footer div {
 }
 
 .nav-item.cv {
-	color: lavender;
+	color: slateblue;
 	font-weight: bold;
+	background-color: black;
+	border-radius: 15px;
 }
 
 .nav-item.cv:hover {
-	color: plum;
+	color: white;
+	background-color: lightblue;
 }
 
 /* social media buttons*/
@@ -281,8 +283,24 @@ footer div {
 /* media queries */
 
 @media screen and (max-width: 1000px) {
-	section {
-		width: 80%;
+/*	section {
+		width: 75%;
+	}*/
+
+	nav {
+		position: static;
+		width: 90vw;
+		height: auto;
+		font-size: 3vh;
+		opacity: 1;
+		border-radius: 0;
+		border: 0;
+		margin: 0;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-wrap: wrap;
+		background-color: transparent;
 	}
 
 	.project-item {
@@ -300,34 +318,43 @@ footer div {
 
 	h1 {
 		padding: 9vw;
-		font-size: 20vw;
+		font-size: 12vw;
 	}
 
 	nav {
 		opacity: 0.4;
 	}
+	
+    .timeline::after {
+		left: 31px;
+    }
+  
+    .container {
+		width: 100%;
+		padding-left: 70px;
+		padding-right: 25px;
+    }
+  
+    .container::before {
+		left: 60px;
+		border: medium solid white;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent white transparent transparent;
+    }
+
+    .left::after, .right::after {
+		left: 15px;
+    }
+  
+    .right {
+		left: 0%;
+    }
 
 }
 
 @media screen and (max-width: 450px) {
 	section {
 		width: 90%;
-	}
-
-	nav {
-		position: static;
-		width: 90vw;
-		height: auto;
-		font-size: 3vh;
-		opacity: 1;
-		border-radius: 0;
-		border: 0;
-		margin: 0;
-		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: center;
-		flex-wrap: wrap;
-		background-color: transparent;
 	}
 
 	.project-item {
@@ -363,29 +390,4 @@ footer div {
 		flex-wrap: wrap;
 		padding: 10px;
 	}
-	
-    .timeline::after {
-		left: 31px;
-    }
-  
-    .container {
-		width: 100%;
-		padding-left: 70px;
-		padding-right: 25px;
-    }
-  
-    .container::before {
-		left: 60px;
-		border: medium solid white;
-		border-width: 10px 10px 10px 0;
-		border-color: transparent white transparent transparent;
-    }
-
-    .left::after, .right::after {
-		left: 15px;
-    }
-  
-    .right {
-		left: 0%;
-    }
 }
