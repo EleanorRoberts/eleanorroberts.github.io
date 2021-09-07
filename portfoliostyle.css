@@ -190,9 +190,9 @@ footer div {
 /* timeline css*/
 
 .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .timeline::after {
@@ -209,7 +209,6 @@ footer div {
 .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
   width: 50%;
 }
 
@@ -241,10 +240,10 @@ footer div {
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 15px;
   border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-width: 8px 0 8px 25px;
+  border-color: transparent transparent transparent grey;
 }
 
 .right::before {
@@ -254,22 +253,21 @@ footer div {
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 15px;
   border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-width: 8px 25px 8px 0;
+  border-color: transparent grey transparent transparent;
 }
 
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: grey;
   position: relative;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
