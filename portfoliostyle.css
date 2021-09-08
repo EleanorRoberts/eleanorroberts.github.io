@@ -114,6 +114,10 @@ footer div {
 	text-align: center;
 }
 
+.role {
+	float: right;
+}
+
 .project-item {
 	display: flex;
 	justify-content: space-evenly;
@@ -220,8 +224,17 @@ footer div {
 	position: relative;
 }
 
+.timeline::before {
+	content: "Hover over the below roles to learn more!";
+	color: white;
+	background-color: black;
+	opacity: 0.5;
+	padding: 5px;
+	border-radius: 5px;
+}
+
 .timeline::after {
-	content: '';
+	content: "";
 	position: absolute;
 	width: 6px;
 	background-color: white;
@@ -323,6 +336,10 @@ footer div {
 	
 	.to-hide {
 		display: initial;
+	}
+	
+	.timeline::before {
+		display: none;
 	}
 
 	.project-item {
