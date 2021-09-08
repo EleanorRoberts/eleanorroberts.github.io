@@ -100,6 +100,14 @@ footer div {
 
 /* most class styles */
 
+.to-hide {
+	display: none;
+}
+
+.project-info:hover .to-hide, .container:hover .to-hide {
+	display: initial;
+}
+
 .nav-item {
 	color: white;
 	padding: 10px;
