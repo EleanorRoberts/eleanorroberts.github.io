@@ -319,7 +319,7 @@ footer div {
 		width: 90vw;
 		height: auto;
 		font-size: 3vh;
-		opacity: 0.4;
+		opacity: 0.8;
 		border-radius: 0;
 		border: 0;
 		margin: 0 auto;
@@ -351,6 +351,10 @@ footer div {
 		width: 100%;
 	}
 
+	p {
+		font-size: 8vw;
+	}
+
 	header {
 		height: auto;
 	}
@@ -358,6 +362,10 @@ footer div {
 	h1 {
 		padding: 9vw;
 		font-size: 12vw;
+	}
+	
+	h3 {
+		font-size: 10vw;
 	}
 	
 	.timeline::after {
