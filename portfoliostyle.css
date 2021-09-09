@@ -1,8 +1,6 @@
-
-
 * {
 	box-sizing: border-box;
-	font-family: 'Nunito', sans-serif;
+	font-family: "Nunito", sans-serif;
 }
 
 section, footer div {
@@ -47,7 +45,7 @@ nav a:hover {
 
 header {
 	height: 100vh;
-	background-image: url('Nova1.jpeg');
+	background-image: url("Nova1.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -102,6 +100,7 @@ footer div {
 
 .to-hide {
 	display: none;
+	max-width: 100%;
 }
 
 .project-info:hover .to-hide, .container:hover .to-hide {
@@ -252,7 +251,7 @@ footer div {
 
 /* the balls on the timeline*/
 .container::after {
-	content: '';
+	content: "";
 	position: absolute;
 	width: 25px;
 	height: 25px;
@@ -264,10 +263,12 @@ footer div {
 	z-index: 1;
 }
 
+/*positioning the left container*/
 .left {
 	left: -10%;
 }
 
+/*positioning the right container*/
 .right {
 	left: 50%;
 }
@@ -295,8 +296,7 @@ footer div {
 	left: 15px;
 	border: medium solid #FFFFFF;
 	border-width: 8px 25px 8px 0;
-	border-color: transparent #808080
- transparent transparent;
+	border-color: transparent #808080 transparent transparent;
 }
 
 .right::after {
@@ -305,8 +305,7 @@ footer div {
 
 .content {
 	padding: 20px 30px;
-	background-color: #808080
-;
+	background-color: #808080;
 	position: relative;
 	border-radius: 10px;
 	color: #FFFFFF;
@@ -328,7 +327,6 @@ footer div {
 		justify-content: space-evenly;
 		align-items: center;
 		flex-wrap: wrap;
-		background-color: transparent;
 	}
 	
 	nav:hover {
@@ -362,28 +360,28 @@ footer div {
 		font-size: 12vw;
 	}
 	
-    .timeline::after {
+	.timeline::after {
 		left: -4%;
-    }
-  
-    .container {
+	}
+	
+	.container {
 		width: 100%;
-    }
-  
-    .container::before {
+	}
+	
+	.container::before {
 		left: -2%;
 		border: medium solid #FFFFFF;
 		border-width: 8px 10vw 8px 0;
 		border-color: transparent #808080 transparent transparent;
-    }
-
-    .left::after, .right::after {
+	}
+	
+	.left::after, .right::after {
 		left: -5vw;
-    }
-  
-    .left, .right {
+	}
+	
+	.left, .right {
 		left: 0%;
-    }
+	}
 
 }
 
@@ -419,20 +417,21 @@ footer div {
 		flex-wrap: wrap;
 		padding: 10px;
 	}
-    .left, .right {
-		left: 0%;
-    }
 	
-    .timeline::after {
+	.left, .right {
 		left: 0%;
-    }
+	}
 	
-    .container::before {
+	.timeline::after {
+		left: 0%;
+	}
+	
+	.container::before {
 		left: 0%;
 		border-width: 8px 12vw 8px 0;
 	}
-
-    .left::after, .right::after {
+	
+	.left::after, .right::after {
 		left: -3vw;
-    }
+	}
 }
