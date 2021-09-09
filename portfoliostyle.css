@@ -39,7 +39,7 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
 	color: #ADD8E6;
 }
 
@@ -107,6 +107,10 @@ footer div {
 	display: initial;
 }
 
+.project-info h3:focus .to-hide, .project-info p:focus .to-hide, /*.container:focus .to-hide*/ {
+	display: initial;
+}
+
 .nav-item {
 	color: #FFFFFF;
 	padding: 10px;
@@ -137,7 +141,7 @@ footer div {
 	text-decoration: none;
 }
 
-.project-item a:hover {
+.project-item a:hover, .project-item a:focus {
 	padding: 10px;
 	background-color: #000000;
 	border-radius: 5px;
@@ -180,7 +184,7 @@ footer div {
 	border-radius: 15px;
 }
 
-.nav-item.cv:hover {
+.nav-item.cv:hover, .nav-item.cv:focus {
 	color: #FFFFFF;
 	background-color: #ADD8E6;
 }
@@ -212,7 +216,7 @@ footer div {
 	padding: 30px;
 }
 
-.media-links a:hover {
+.media-links a:hover, .media-links a:focus {
 	color: #ADD8E6;
 	border: 3px solid #FFFFFF;
 }
@@ -329,7 +333,7 @@ footer div {
 		flex-wrap: wrap;
 	}
 	
-	nav:hover {
+	nav:hover, nav a:focus {
 		opacity: 0.7;
 		background-color: transparent;
 	}
