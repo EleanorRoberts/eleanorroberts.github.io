@@ -35,7 +35,9 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-	color: #ADD8E6;
+	color: #FFFFFF;
+	background-color: #6A5ACD;
+	border-radius: 15px;
 }
 
 header {
@@ -167,18 +169,6 @@ footer div {
 	color: #FFFFFF;
 	margin: 20px 0;
 	border-radius: 15px;
-}
-
-.nav-item.cv {
-	color: #6A5ACD;
-	font-weight: bold;
-	background-color: #000000;
-	border-radius: 15px;
-}
-
-.nav-item.cv:hover, .nav-item.cv:focus {
-	color: #FFFFFF;
-	background-color: #ADD8E6;
 }
 
 /* social media buttons*/
